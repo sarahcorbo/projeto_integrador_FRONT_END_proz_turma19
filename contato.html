@@ -27,23 +27,30 @@
         
         <div class="coluna">
             <h4>Notícias</h4>
-            <img src="./img/img4.jpg" alt="Imagem 4">
+            <img src="./img/newletters.jpg" alt="Imagem 4">
             <p>Fique por dentro das últimas novidades, informações exclusivas e oportunidades incríveis na área de tecnologia. Para receber atualizações regulares, notícias empolgantes e nossa newsletter, inscreva-se agora!</p>
         </div>
         
         <div class="cadastro">
             <h3>Cadastre-se</h3>
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+            <form action="">
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" name="iname" required placeholder=" Digite seu nome">
+                </div>
+                <div>
+                    <label for="email">email: </label>
+                    <input type="email" id="email" nome =iemail required placeholder=" Digite seu email">
+                </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <div>
+                    <label for="senha">Senha: </label>
+                    <input type="password" id="senha" name="isenha" required placeholder=" Digite sua senha">
+                </div>
 
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
-
-                <button type="submit">Finalizar Cadastro</button>
+                </div>
+                <br><input type="submit" value="Enviar"></br>
+                </div> 
             </form>
 
             <p><a href="#">Esqueceu a sua senha?</a></p>
